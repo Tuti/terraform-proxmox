@@ -1,4 +1,4 @@
-resource "proxmox_virtual_env_vm" "web01" {
+resource "proxmox_virtual_environment_vm" "web01" {
   name = "web-server-01"
   node_name = var.target_node
   tags = ["opentofu", "web"]
