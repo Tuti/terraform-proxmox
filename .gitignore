@@ -4,3 +4,6 @@
 .terraform.lock.hcl
 /cloud-images
 terraform.tfstate
+*.tfstate
+*.tfstate.backup
+*.log
